@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     siteName: "ABC Pen-House",
     images: [
       {
-        url: "/14.jpg",
-        secureUrl: "/14.jpg",
+        url: "/1.jpeg",
+        secureUrl: "/1.jpeg",
         width: 1200,
         height: 630,
         type: "image/jpeg",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "ABC PEN-HOUSE | Editorial Storytelling & Brand Publishing Studio",
     description:
       "Every brand has a story. We help you tell yours. Custom brand books, digital magazines, and legacy memoirs.",
-    images: ["/14.jpg"],
+    images: ["/1.jpeg"],
     creator: "@abcpenhouse",
   },
   robots: {
@@ -89,7 +89,7 @@ const jsonLd = {
   name: "ABC Pen-House",
   url: "https://portfolio-xi-one-k0up798ebi.vercel.app",
   logo: "/1.jpeg",
-  image: "/14.jpg",
+  image: "/1.jpeg",
   description:
     "Editorial Storytelling & Brand Publishing Studio specializing in personal legacy stories, brand books, digital magazines, and thought leadership.",
   sameAs: ["https://portfolio-xi-one-k0up798ebi.vercel.app"],
@@ -116,14 +116,14 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/1.jpeg" sizes="any" />
         <link rel="apple-touch-icon" href="/1.jpeg" />
-        <meta property="og:image" content="https://portfolio-xi-one-k0up798ebi.vercel.app/14.jpg" />
-        <meta property="og:image:url" content="https://portfolio-xi-one-k0up798ebi.vercel.app/14.jpg" />
-        <meta property="og:image:secure_url" content="https://portfolio-xi-one-k0up798ebi.vercel.app/14.jpg" />
+        <meta property="og:image" content="https://portfolio-xi-one-k0up798ebi.vercel.app/1.jpeg" />
+        <meta property="og:image:url" content="https://portfolio-xi-one-k0up798ebi.vercel.app/1.jpeg" />
+        <meta property="og:image:secure_url" content="https://portfolio-xi-one-k0up798ebi.vercel.app/1.jpeg" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="ABC Pen-House Editorial Storytelling Showcase" />
-        <meta name="twitter:image" content="https://portfolio-xi-one-k0up798ebi.vercel.app/14.jpg" />
+        <meta name="twitter:image" content="https://portfolio-xi-one-k0up798ebi.vercel.app/1.jpeg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

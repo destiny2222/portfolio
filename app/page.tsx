@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import ScrollWorld from "@/components/ScrollWorld";
 import About from "@/components/About";
 import Expertise from "@/components/Expertise";
 import Portfolio from "@/components/Portfolio";
@@ -14,7 +13,6 @@ export default function Home() {
     <main className="min-h-screen flex flex-col bg-[#fbfbf9] text-[#121212] overflow-x-hidden selection:bg-[#e32e07] selection:text-white">
       <Navbar />
       <Hero />
-      <ScrollWorld />
       <About />
       <Expertise />
       <Portfolio />
@@ -25,4 +23,5 @@ export default function Home() {
     </main>
   );
 }
+
 

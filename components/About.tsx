@@ -109,7 +109,7 @@ export default function About() {
             </div>
 
             {/* Ousya-style Rolling Stats Grid */}
-            <div className="grid grid-cols-3 gap-6 pt-8 mt-8 border-t border-black/10">
+            {/* <div className="grid grid-cols-3 gap-6 pt-8 mt-8 border-t border-black/10">
               {stats.map((stat, idx) => (
                 <motion.div
                   key={idx}
@@ -127,7 +127,7 @@ export default function About() {
                   </span>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
         </div>
 
